@@ -26,7 +26,7 @@ var Main = require("../components/Main");
 var Home = require("../components/Home");
 var Resume = require("../components/Resume");
 var AboutMe = require("../components/AboutMe");
-var Project = require("../components/Project");
+var Projects = require("../components/Projects");
 
 
 
@@ -38,16 +38,40 @@ module.exports = (
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
 
-      {/* If user selects Info or Chat show the appropriate component */}
+      {/* User selection shows the appropriate component */}
       <Route path="Home" component={Home} />
-      <Route path="Project" component={Project} />
+      <Route path="Projects" component={Projects} />
       <Route path="AboutMe" component={AboutMe} />
       <Route path="Resume" component={Resume} />
 
-      {/* If user selects any other path... we get the Info Route */}
+      {/* If user selects any other path... we get the Home Route */}
       <IndexRoute component={Home} />
 
     </Route>
+
+    <Route path="Projects" component={Projects}>
+      <Route path="Home" component={Home} />
+      <Route path="AboutMe" component={AboutMe} />
+      <Route path="Resume" component={Resume} />
+      <IndexRoute component={Projects} />
+    </Route>
+
+    <Route path="AboutMe" component={AboutMe}>
+      <Route path="Home" component={Home} />
+      <Route path="Projects" component={Projects} />
+      <Route path="Resume" component={Resume} />
+      <IndexRoute component={AboutMe} />
+    </Route>
+
+
+    <Route path="Resume" component={Resume}>
+      <Route path="Home" component={Home} />
+      <Route path="Projects" component={Projects} />
+      <Route path="AboutMe" component={AboutMe} />
+      <IndexRoute component={Resume} />
+    </Route>
+
+
   </Router>
 
 );

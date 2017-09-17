@@ -1,6 +1,8 @@
 // Include React
 var React = require("react");
 
+var Link = require("react-router").Link;
+
 var Resume = React.createClass({
 
   // Here we render the component
@@ -14,9 +16,10 @@ var Resume = React.createClass({
           <a href="https://www.linkedin.com/in/elthsu/" target="_blank"><img id="linkedinIcon" src="public/assets/img/linkedin.png" /></a>
           <a href="https://github.com/elthsu" target="_blank"><img id="githubIcon" src="public/assets/img/github.png" /></a>
           <br />
-          <button className="btn btn-info btn-lg btn-custom btn-left">See Projects</button>
-          <button className="btn btn-info btn-lg btn-custom">About Me</button>
-          <button className="btn btn-info btn-lg btn-custom">Résumé</button>
+          <Link to="/Home"><button className="btn btn-info btn-lg btn-custom">Home</button></Link>
+          <Link to="/Projects"><button className="btn btn-info btn-lg btn-custom btn-left">Projects</button></Link>
+          <Link to="/AboutMe"><button className="btn btn-info btn-lg btn-custom">About Me</button></Link>
+
         </div>
         <div id="resumeContainer">
             <embed id="resume" src="public/assets/doc/EltonHsuResume.pdf" width="650px" height="900px" />

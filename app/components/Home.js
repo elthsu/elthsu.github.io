@@ -21,7 +21,7 @@ var Main = React.createClass({
 
     			<hr />
     			<p>
-    				  <Link to="/Project"><button className="btn btn-info btn-lg btn-custom btn-left">See Projects</button></Link>
+    				  <Link to="/Projects"><button className="btn btn-info btn-lg btn-custom btn-left">Projects</button></Link>
     				  <Link to="/AboutMe"><button className="btn btn-info btn-lg btn-custom">About Me</button></Link>
               <Link to="/Resume"><button className="btn btn-info btn-lg btn-custom">Résumé</button></Link>
     			</p>
