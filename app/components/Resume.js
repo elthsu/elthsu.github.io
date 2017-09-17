@@ -10,16 +10,16 @@ var Resume = React.createClass({
       <div className="row">
         <div className="infoContainer">
           <h1 className="fontName">Elton Hsu</h1>
-          <a href="mailto:elthsu@gmail.com"><img id="gmailIcon" src="assets/img/gmail.png" /></a>
-          <a href="https://www.linkedin.com/in/elthsu/" target="_blank"><img id="linkedinIcon" src="assets/img/linkedin.png" /></a>
-          <a href="https://github.com/elthsu" target="_blank"><img id="githubIcon" src="assets/img/github.png" /></a>
+          <a href="mailto:elthsu@gmail.com"><img id="gmailIcon" src="public/assets/img/gmail.png" /></a>
+          <a href="https://www.linkedin.com/in/elthsu/" target="_blank"><img id="linkedinIcon" src="public/assets/img/linkedin.png" /></a>
+          <a href="https://github.com/elthsu" target="_blank"><img id="githubIcon" src="public/assets/img/github.png" /></a>
           <br />
           <button className="btn btn-info btn-lg btn-custom btn-left">See Projects</button>
           <button className="btn btn-info btn-lg btn-custom">About Me</button>
-          <button className="btn btn-info btn-lg btn-custom">Download Resume</button>
+          <button className="btn btn-info btn-lg btn-custom">Résumé</button>
         </div>
         <div id="resumeContainer">
-            <embed id="resume" src="assets/doc/EltonHsuResume.pdf" width="650px" height="900px" />
+            <embed id="resume" src="public/assets/doc/EltonHsuResume.pdf" width="650px" height="900px" />
         </div>
       </div>
     );
