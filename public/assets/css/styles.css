@@ -263,3 +263,14 @@ height: 5px;
   /*border: 2px solid red;*/
 
 }
+
+
+.projectsContainer {
+
+  position: relative;
+  top: -400px;
+  left: 700px;
+  height: 500px;
+  width: 60%;
+  /*border: 2px solid red;*/
+}

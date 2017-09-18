@@ -24,6 +24,9 @@ var Projects = React.createClass({
             <Link to="/AboutMe"><button className="btn btn-info btn-lg btn-custom">About Me</button></Link>
             <Link to="/Resume"><button className="btn btn-info btn-lg btn-custom">Résumé</button></Link>
           </div>
+          <div className="projectsContainer">
+            <h2>Update on the way.</h2>
+          </div>
         </div>
       </div>
     );
