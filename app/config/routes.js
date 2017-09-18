@@ -17,7 +17,7 @@ var Router = router.Router;
 var hashHistory = router.hashHistory;
 
 // browserHistory makes for cleaner URLs but can only be used when running a server
-var browserHistory = router.browserHistory;
+//var browserHistory = router.browserHistory;
 
 // Include the IndexRoute (catch-all route)
 var IndexRoute = router.IndexRoute;
@@ -36,7 +36,7 @@ var Projects = require("../components/Projects");
 module.exports = (
 
   // The high level component is the Router component
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={Main}>
 
       {/* User selection shows the appropriate component */}
