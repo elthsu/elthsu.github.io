@@ -22,7 +22,7 @@ var Resume = React.createClass({
 
         </div>
         <div id="resumeContainer">
-            <embed id="resume" src="public/assets/doc/EltonHsuResume.pdf" width="650px" height="630px" />
+            <embed id="resume" src="public/assets/doc/EltonHsuResume.pdf" width="460px" height="660px" />
         </div>
       </div>
     );
