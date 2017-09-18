@@ -63,9 +63,10 @@ height: 5px;
 }
 
 #footerDiv {
-
+  margin: 0;
+  padding: 0;
   position: relative;
-  bottom: 15px;
+  bottom: 55px;
   padding-top: 5px;
 
 }
@@ -98,7 +99,8 @@ height: 5px;
 }
 
 #bgImg {
-
+  position: relative;
+  top: -70px;
   z-index: -100;
   pointer-events: none;
 }
@@ -121,13 +123,15 @@ height: 5px;
   top: -600px;
   left: 500px;
   height: 500px;
-  width: 60%;
+  width: 55%;
+  padding: 0;
+  margin: 0;
 
 }
 
 #resumeContainer {
   position: relative;
-  top: -700px;
+  top: -790px;
   left: 550px;
   height: 670px;
   width: 500px;
@@ -142,7 +146,7 @@ height: 5px;
 .infoContainer {
 
   position: relative;
-  top: -400px;
+  top: -450px;
   left: 150px;
   height: 100%;
 
@@ -268,9 +272,10 @@ height: 5px;
 .projectsContainer {
 
   position: relative;
-  top: -400px;
-  left: 700px;
+  top: -600px;
+  left: 500px;
   height: 500px;
-  width: 60%;
-  /*border: 2px solid red;*/
+  width: 55%;
+  padding: 0;
+  margin: 0;
 }
