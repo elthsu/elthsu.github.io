@@ -4,7 +4,7 @@ var React = require("react");
 var Link = require("react-router").Link;
 
 // Create the Main component
-var Main = React.createClass({
+var Home = React.createClass({
 
   // Here we render the component
   render: function() {
@@ -32,4 +32,4 @@ var Main = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = Main;
+module.exports = Home;

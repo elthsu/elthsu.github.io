@@ -36,7 +36,7 @@ var Projects = require("../components/Projects");
 module.exports = (
 
   // The high level component is the Router component
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={Main}>
 
       {/* User selection shows the appropriate component */}
