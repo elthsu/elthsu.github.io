@@ -10,7 +10,7 @@ var Home = React.createClass({
   render: function() {
 
     return (
-
+      <div className="indexBtmWrap">
         <div className="jumbotron">
     			<h2><strong>Welcome</strong></h2>
           <h1 id="fontName">Elton Hsu</h1>
@@ -26,6 +26,11 @@ var Home = React.createClass({
               <Link to="/Resume"><button className="btn btn-info btn-lg btn-custom">Résumé</button></Link>
     			</p>
         </div>
+        <div id="indexFooterDiv">
+          <h5>&copy;Elton Hsu</h5>
+          <h5>Powered by <img id="reactImg" src="public/assets/img/react.png" />React.JS</h5>
+        </div>
+      </div>
 
     );
   }

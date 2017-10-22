@@ -10,7 +10,7 @@ var Projects = React.createClass({
   render: function() {
 
     return (
-
+      <div>
         <div className="row">
           <div className="infoContainer">
             <h1 className="fontName">Elton Hsu</h1>
@@ -34,6 +34,12 @@ var Projects = React.createClass({
 
           </div>
         </div>
+
+        <div id="footerDiv">
+          <h5>&copy;Elton Hsu</h5>
+          <h5>Powered by <img id="reactImg" src="public/assets/img/react.png" />React.JS</h5>
+        </div>
+      </div>
 
     );
   }

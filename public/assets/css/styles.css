@@ -62,12 +62,24 @@ height: 5px;
   height: 20px;
 }
 
-#footerDiv {
+#footerDiv,
+#indexFooterDiv {
   margin: 0;
   padding: 0;
   position: relative;
   bottom: 55px;
   padding-top: 5px;
+
+}
+
+#indexFooterDiv{
+bottom: 475px;
+
+}
+
+.indexBtmWrap {
+
+  height: 10px;
 
 }
 
@@ -294,6 +306,19 @@ height: 5px;
   visibility: hidden;
 }
 
+
+
+.jumbotron {
+
+  position: relative;
+  top: -530px;
+  left: 150px;
+  width: 80%;
+  height: 200px;
+  text-align: center;
+}
+
+
 .shortcutGroup {
 
   text-align: center;
@@ -439,9 +464,33 @@ height: 5px;
 
 }
 
+#indexFooterDiv {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  bottom: 270px;
+  padding-top: 5px;
+  left: 30px;
+
+}
+
+
+
 }
 
 @media screen and (max-width: 1199px) {
+
+
+  .jumbotron {
+
+    position: relative;
+    top: -530px;
+    left: 130px;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+  }
+
 
   .shortcutGroup {
 
@@ -640,6 +689,16 @@ height: 5px;
 
 @media screen and (max-width: 991px) {
 
+  .jumbotron {
+
+    position: relative;
+    top: -530px;
+    left: 100px;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+  }
+
   .aboutMeContainer {
 
     position: relative;
@@ -669,11 +728,45 @@ height: 5px;
 
 }
 
+@media screen and (max-width: 875px) {
+
+  .jumbotron {
+
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: -330px;
+    left: 105px;
+    width: 80%;
+    text-align: center;
+  }
+
+  #indexFooterDiv {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 170px;
+    padding-top: 5px;
+
+  }
+}
+
 @media screen and (max-width: 734px) {
 
   html, body {
 
     width: 600px;
+  }
+
+  .jumbotron {
+
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: -330px;
+    left: 115px;
+    width: 400px;
+    text-align: center;
   }
 
   .infoContainer {

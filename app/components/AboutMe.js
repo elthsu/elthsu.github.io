@@ -49,7 +49,12 @@ var AboutMe = React.createClass({
             </div>
 
         </div>
+
+      <div id="footerDiv">
+        <h5>&copy;Elton Hsu</h5>
+        <h5>Powered by <img id="reactImg" src="public/assets/img/react.png" />React.JS</h5>
       </div>
+    </div>
     );
   }
 });
