@@ -27,10 +27,10 @@ var Projects = React.createClass({
             <h2>Public Transit Mapper</h2>
             <a href="http://eltonhsu.com/LA-Metro-Stations-Helper/" target="_blank"><img className="projectImg" id="proj1" src="https://media.giphy.com/media/xT9IguYybCWpDXb6BW/giphy.gif" /></a>
             <h3>A useful tool for any traveller or new transplant of a city. The app takes multiple APIs and provides information centered around LA's Metro Stations. Can be customized to any city.</h3>
-
+            <hr />
             <h2>Swapr</h2>
-            <a href="https://swapr-app.herokuapp.com/" target="_blank"><img className="projectImg" id="proj1" src="#" /></a>
-            <h3>A marketplace.</h3>
+            <a href="https://swapr-app.herokuapp.com/" target="_blank"><img className="projectImg" id="proj2" src="https://media.giphy.com/media/l1J9RmLUEsyzouIrm/giphy.gif" /></a>
+            <h3>An app where users can connect with one another to swap items with no money involved. With a built-in real-time chat system, users can safely arrange to exchange items without sharing personal information.</h3>
 
           </div>
         </div>

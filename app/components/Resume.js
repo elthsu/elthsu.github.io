@@ -24,6 +24,10 @@ var Resume = React.createClass({
         <div id="resumeContainer">
             <embed id="resume" src="public/assets/doc/EltonHsuResume.pdf" width="460px" height="660px" />
         </div>
+        <div id="resumeFooterDiv">
+          <h5>&copy;Elton Hsu</h5>
+          <h5>Powered by <img id="reactImg" src="public/assets/img/react.png" />React.JS</h5>
+        </div>
       </div>
     );
   }
