@@ -11,8 +11,6 @@ var Projects = React.createClass({
 
     return (
 
-
-      <div>
         <div className="row">
           <div className="infoContainer">
             <h1 className="fontName">Elton Hsu</h1>
@@ -25,10 +23,18 @@ var Projects = React.createClass({
             <Link to="/Resume"><button className="btn btn-info btn-lg btn-custom">Résumé</button></Link>
           </div>
           <div className="projectsContainer">
-            <h2>Update on the way.</h2>
+
+            <h2>Public Transit Mapper</h2>
+            <a href="http://eltonhsu.com/LA-Metro-Stations-Helper/" target="_blank"><img className="projectImg" id="proj1" src="https://media.giphy.com/media/xT9IguYybCWpDXb6BW/giphy.gif" /></a>
+            <h3>A useful tool for any traveller or new transplant of a city. The app takes multiple APIs and provides information centered around LA's Metro Stations. Can be customized to any city.</h3>
+
+            <h2>Swapr</h2>
+            <a href="https://swapr-app.herokuapp.com/" target="_blank"><img className="projectImg" id="proj1" src="#" /></a>
+            <h3>A marketplace.</h3>
+
           </div>
         </div>
-      </div>
+
     );
   }
 });

@@ -15,9 +15,11 @@ var AboutMe = React.createClass({
         <div className="row" id="rowsetting">
           <div className="infoContainer">
             <h1 className="fontName">Elton Hsu</h1>
+            <div className="shortcutGroup">
             <a href="mailto:elthsu@gmail.com"><img id="gmailIcon" src="public/assets/img/gmail.png" /></a>
             <a href="https://www.linkedin.com/in/elthsu/" target="_blank"><img id="linkedinIcon" src="public/assets/img/linkedin.png" /></a>
             <a href="https://github.com/elthsu" target="_blank"><img id="githubIcon" src="public/assets/img/github.png" /></a>
+            </div>
             <br />
             <Link to="/Home"><button className="btn btn-info btn-lg btn-custom btn-left">Home</button></Link>
             <Link to="/Projects"><button className="btn btn-info btn-lg btn-custom">Projects</button></Link>
@@ -39,12 +41,13 @@ var AboutMe = React.createClass({
             <img className="iconGroup" id="mongooseIcon" src="public/assets/img/mongoose.png" />
             <img className="iconGroup" id="expressIcon" src="public/assets/img/expressjs.png" />
             <img className="iconGroup" id="gitIcon" src="public/assets/img/git.png" />
+          </div>
             <div className="aboutMeText">
               <h2> About Me </h2>
               <hr />
               <h3>A passionate, problem solving web developer who values the listening aspect of communication as much as conversing and loves design because of the opportunity to dissect items and reassemble for everyone's benefit. Excited to use my MERN skills to complete any tasks.</h3>
             </div>
-          </div>
+
         </div>
       </div>
     );

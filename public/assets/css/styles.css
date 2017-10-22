@@ -107,6 +107,7 @@ height: 5px;
 
 .btn-custom {
 
+  width: 100px;
   color: white;
   background-color: transparent;
   border: 2px solid lightgrey;
@@ -258,13 +259,12 @@ height: 5px;
 }
 
 .aboutMeText {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 85px;
-  left: 145px;
+  top: -1010px;
+  left: 630px;
   height: 250px;
   width: 400px;
-  /*border: 2px solid red;*/
 
 }
 
@@ -274,8 +274,499 @@ height: 5px;
   position: relative;
   top: -600px;
   left: 500px;
-  height: 500px;
+  height: 450px;
   width: 55%;
   padding: 0;
   margin: 0;
+  overflow: scroll;
+}
+
+.projectImg {
+  width: 275px;
+  border: 1px solid lightgrey;
+}
+
+
+@media screen and (max-width: 1375px) {
+
+#bgImg {
+
+  visibility: hidden;
+}
+
+.shortcutGroup {
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-custom {
+
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.infoContainer {
+  position: relative;
+  top: -600px;
+  left: 0px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.aboutMeContainer {
+
+  position: relative;
+  top: -650px;
+  left: 0px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  margin-left: 43px;
+  z-index: -100;
+}
+
+.aboutMeText {
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 380px;
+  top: -740px;
+
+}
+
+.iconGroup {
+  position: relative;
+  width: 90px;
+
+}
+
+#html5Icon{
+  top: 450px;
+  left: 320px;
+
+}
+
+#cssIcon {
+  top: 450px;
+  left: 320px;
+}
+
+#jsIcon {
+  top: 450px;
+  left: 320px;
+}
+
+#materializeIcon {
+  top: 450px;
+  left: 320px;
+
+}
+
+#bootstrapIcon {
+  top: 450px;
+  left: 320px;
+
+}
+#handlebarsIcon {
+  top: 540px;
+  left: -130px;
+
+}
+
+#reactIcon {
+  top: 540px;
+  left: -130px;
+}
+
+#ajaxIcon {
+  top: 540px;
+  left: -130px;
+}
+
+#firebaseIcon {
+  top: 540px;
+  left: -130px;
+}
+
+#mySqlIcon {
+  top: 540px;
+  left: -130px;
+
+}
+
+#nodeIcon {
+
+  top: 630px;
+  left: -580px;
+}
+
+#mongoIcon {
+  top: 630px;
+  left: -580px;
+}
+
+#mongooseIcon {
+  top: 630px;
+  left: -400px;
+}
+
+#expressIcon {
+
+  top: 532px;
+  left: 0px;
+
+}
+
+#gitIcon {
+
+  top: 532px;
+  left: 0px;
+}
+
+#footerDiv {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: -320px;
+  padding-top: 5px;
+
+}
+
+}
+
+@media screen and (max-width: 1199px) {
+
+  .shortcutGroup {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn-custom {
+
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+  .infoContainer {
+    position: relative;
+    top: -600px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .aboutMeContainer {
+
+    position: relative;
+    top: -650px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-left: 43px;
+    z-index: -100;
+  }
+
+  .aboutMeText {
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 280px;
+    top: -740px;
+
+  }
+
+  .iconGroup {
+    position: relative;
+    width: 90px;
+
+  }
+
+  #html5Icon{
+    top: 457px;
+    left: 180px;
+
+  }
+
+  #cssIcon {
+    top: 457px;
+    left: 180px;
+  }
+
+  #jsIcon {
+    top: 457px;
+    left: 180px;
+  }
+
+  #materializeIcon {
+    top: 457px;
+    left: 180px;
+
+  }
+
+  #bootstrapIcon {
+    top: 457px;
+    left: 180px;
+
+  }
+  #handlebarsIcon {
+    top: 547px;
+    left: -270px;
+
+  }
+
+  #reactIcon {
+    top: 547px;
+    left: -270px;
+  }
+
+  #ajaxIcon {
+    top: 547px;
+    left: -270px;
+  }
+
+  #firebaseIcon {
+    top: 547px;
+    left: -270px;
+  }
+
+  #mySqlIcon {
+    top: 547px;
+    left: -270px;
+
+  }
+
+  #nodeIcon {
+
+    top: 540px;
+    left: -45px;
+  }
+
+  #mongoIcon {
+    top: 540px;
+    left: -45px;
+  }
+
+  #mongooseIcon {
+    top: 540px;
+    left: 140px;
+  }
+
+  #expressIcon {
+
+    top: 537px;
+    left: -135px;
+
+  }
+
+  #gitIcon {
+
+    top: 540px;
+    left: -135px;
+  }
+
+  #footerDiv {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: -320px;
+    padding-top: 5px;
+
+  }
+
+}
+
+@media screen and (max-width: 1060px) {
+
+
+  .infoContainer {
+    position: relative;
+    margin-top: 50px;
+    padding: auto;
+    top: -400px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .aboutMeContainer {
+
+    position: relative;
+    top: -450px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-left: 43px;
+    z-index: -100;
+  }
+
+  .aboutMeText {
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 280px;
+    top: -540px;
+
+  }
+
+  #footerDiv {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: -620px;
+    padding-top: 5px;
+
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .aboutMeContainer {
+
+    position: relative;
+    text-align: center;
+    left: -90px;
+    z-index: -100;
+  }
+
+  .aboutMeText {
+
+    position: relative;
+    left: 175px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #firebaseIcon {
+    top: 450px;
+    left: 405px;
+  }
+
+  #mySqlIcon {
+    top: 452px;
+    left: 410px;
+  }
+
+}
+
+@media screen and (max-width: 734px) {
+
+  html, body {
+
+    width: 600px;
+  }
+
+  .infoContainer {
+    position: relative;
+    top: -300px;
+    left: 60px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .aboutMeContainer {
+
+    position: relative;
+    text-align: center;
+    margin: auto;
+    z-index: -100;
+    width: 100%;
+    left: -80px;
+  }
+
+  .aboutMeText {
+
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    width: 100%;
+    left: 10px;
+
+  }
+
+  #reactIcon {
+    top: 450px;
+    left: 270px;
+  }
+
+  #ajaxIcon {
+    top: 450px;
+    left: 270px;
+  }
+
+  #firebaseIcon {
+    top: 450px;
+    left: 270px;
+  }
+
+  #mySqlIcon {
+    top: 452px;
+    left: 273px;
+
+  }
+
+  #nodeIcon {
+
+    top: 540px;
+    left: -180px;
+  }
+
+  #mongoIcon {
+    top: 540px;
+    left: -180px;
+  }
+
+  #mongooseIcon {
+    top: 443px;
+    left: 412px;
+  }
+
+  #expressIcon {
+
+    top: 442px;
+    left: 132px;
+
+  }
+
+  #gitIcon {
+
+    top: 442px;
+    left: 135px;
+  }
+
+  #footerDiv {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: -550px;
+    padding-top: 5px;
+    width: 100%;
+    left: 50px;
+
+  }
+
+
 }
