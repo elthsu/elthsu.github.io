@@ -24,6 +24,10 @@ h5 {
   text-align: center;
 }
 
+.white {
+  color: #fff;
+}
+
 .fontName {
 
   font-size: 60px;
@@ -158,6 +162,12 @@ bottom: 516px;
 #resume {
 
   overflow-y: scroll;
+}
+
+#resumeImg {
+
+visibility: hidden;
+
 }
 
 .infoContainer {
@@ -859,20 +869,27 @@ bottom: 516px;
   .jumbotron {
 
     color: white;
-    background-color: transparent;
+    background-color: red;
     position: relative;
     top: -150px;
-    left: 145px;
+    left: 31%;
     width: 100%;
     text-align: center;
+  }
+
+  .btn-custom {
+
+    width: 75px;
+    padding: 4px;
+    margin: 2px;
   }
 
   .infoContainer {
     position: relative;
     top: -100px;
-    left: 115px;
+    left: 31%;
     height: 200px;
-    width: 80%;
+    width: 100%;
     text-align: center;
 
   }
@@ -885,18 +902,18 @@ bottom: 516px;
     z-index: -100;
     width: 100%;
     left: -80px;
-    top: -300px;
+    top: -200px;
   }
 
   .aboutMeText {
 
     position: relative;
     text-align: center;
-    margin: 50px;
-    padding: 50px;
+    margin: 5px;
+    padding: 5px;
     width: 100%;
-    left: 10px;
-    top: -480px;
+    left: 31%;
+    top: -280px;
 
   }
 
@@ -957,7 +974,7 @@ bottom: 516px;
     bottom: -1020px;
     padding-top: 5px;
     width: 100%;
-    left: 65px;
+    left: 31%;
 
   }
 
@@ -967,7 +984,7 @@ bottom: 516px;
     position: relative;
     bottom: -70px;
     padding-top: 5px;
-    left: 145px;
+    left: 31%;
 
   }
 
@@ -976,7 +993,7 @@ bottom: 516px;
 
       position: relative;
       top: -80px;
-      left: 120px;
+      left: 41%;
       height: 850px;
       width: 80%;
       padding: 0;
@@ -991,14 +1008,34 @@ bottom: 516px;
       top: -260px;
     }
 
-    #resumeFooterDiv {
-      bottom: 250px;
-      left: 50px;
+    #resume {
+
+    visibility: hidden;
 
     }
 
+    #resumeImg {
+
+    visibility: visible;
+    position: relative;
+    top: -530px;
+    left: 31%;
+    text-align: center;
+
+    }
+
+    .white {
+      font-size: 55px;
+    }
+
+    .resumeText {
+      color: white
+    }
 
 
-
+    #resumeFooterDiv {
+      bottom: 250px;
+      left: 31%;
+    }
 
 }
