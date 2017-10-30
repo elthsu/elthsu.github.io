@@ -869,7 +869,6 @@ visibility: hidden;
   .jumbotron {
 
     color: white;
-    background-color: red;
     position: relative;
     top: -150px;
     left: 31%;
@@ -971,7 +970,7 @@ visibility: hidden;
     margin: 0;
     padding: 0;
     position: relative;
-    bottom: -1020px;
+    bottom: -1420px;
     padding-top: 5px;
     width: 100%;
     left: 31%;
@@ -994,18 +993,23 @@ visibility: hidden;
       position: relative;
       top: -80px;
       left: 41%;
-      height: 850px;
-      width: 80%;
+      height: 1350px;
+      width: 70%;
       padding: 0;
       margin: 0;
       text-align: center;
       overflow-y: hidden;
     }
 
+    .projectImg {
+      width: 80%;
+    }
+
     #resumeContainer {
       position: relative;
       left: 135px;
       top: -260px;
+      z-index: -5;
     }
 
     #resume {
