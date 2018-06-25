@@ -128,7 +128,7 @@ body {
   visibility: hidden;
 }
 
-@@supports (-ms-ime-align: auto) {
+@supports (-ms-ime-align: auto) {
   #selected {
     margin-top: 50px;
   }
