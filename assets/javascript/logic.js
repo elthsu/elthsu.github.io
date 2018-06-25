@@ -25,7 +25,6 @@ var treeArray = ["0_9", "1_8", "2_7", "3_6", "4_5", "5_4", "6_3", "7_2", "8_1"]
 $(document).ready(function() {
     blockTimer = setInterval(function(){
       blockLocation = document.getElementById("block").getBoundingClientRect();
-
       if (parseInt(blockLocation.left) < -100){
 
         $("#block").attr("class", "");
