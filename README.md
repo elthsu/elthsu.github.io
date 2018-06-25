@@ -2,10 +2,10 @@
 
 
 ## Browser Compatibility: 
-Chrome: Yes
-Firefox: Working on it!
-Edge: Yes
-IE: Working on it!
+* Chrome: Yes
+* Firefox: Working on it!
+* Edge: Yes
+* IE: Working on it!
 
 
 # Please enjoy.
