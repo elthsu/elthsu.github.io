@@ -26,7 +26,7 @@ $(document).ready(function() {
     blockTimer = setInterval(function(){
       blockLocation = document.getElementById("block").getBoundingClientRect();
 
-      if (parseInt(blockLocation.x) < -100){
+      if (parseInt(blockLocation.left) < -100){
 
         $("#block").attr("class", "");
         setTimeout(function(){
@@ -201,13 +201,13 @@ $(document).on("click keydown", function(e){
     clicked = true;
     var block = document.getElementById("block");
     var char = block.getBoundingClientRect();
-    var collision = parseInt((parseInt(char.x) / parseInt(window.innerWidth)) * 100);
+    var collision = parseInt((parseInt(char.left) / parseInt(window.innerWidth)) * 100);
 
     if(collision > 23 && collision < 38){
       setTimeout(function(){
       let newChar = block.getBoundingClientRect();
       $("#block").attr("class", "boxHit");
-      $("#block").attr("style", `left:${newChar.x}px`);
+      $("#block").attr("style", `left:${newChar.left}px`);
 
       document.getElementById("player").setAttribute("src", "assets/character/"+ chosenHero +"/Stand/0.png");
 
