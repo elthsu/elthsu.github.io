@@ -171,11 +171,13 @@ $("#heroSelection img").mouseenter(function(){
     character = "Ice Mage";
   }
   $("#selected").text(character);
+  $("#selected").addClass($(this).attr("src").split("/")[2]);
   $("#selected").attr("style", "visibility:visible");
 });
 
 $("#heroSelection img").mouseleave(function(){
   $("#selected").attr("style", "visibility:hidden");
+  $("#selected").removeClass();
   $("#selected").text("");
   clearInterval(time);
 });
@@ -248,7 +250,7 @@ $(document).on("click keydown", function(e){
           `<h2>Cover Letter</h2><span id="exitModal">X</span>
            <hr />
            <h4>Dear Hiring Manager,
-            <p>I have over 8 years of international experience and would like to speak with the right person about your open position. I believe I am a good fit because I have:</p><ul><li>Worked on 3 product launches developed in ReactJS</li><li>Skilled and proficient in the modern MERN Full-Stack, Mango/Express/React/Node.</li><li>Mastery in other aspects of development, including but not limited to Handlebars (server-side templating) and JQuery.</li><li>Consistently learning new technologies introduced in the Coding Boot Camp</li></ul><p>I am currently working as a UCLA Extension Full-Stack Boot Camp TA. I would love to talk to you soon!</p>
+            <p>I have over 8 years of international experience and would like to speak with the right person about your open position. I believe I am a good fit because I have:</p><ul><li>Worked on 3 product launches developed in ReactJS</li><li>Skilled and proficient in the modern MERN Full-Stack, Mongo/Express/React/Node.</li><li>Mastery in other aspects of development, including but not limited to Handlebars (server-side templating) and JQuery.</li><li>Consistently learning new technologies introduced in the Coding Boot Camp</li></ul><p>I am currently working as a UCLA Extension Full-Stack Boot Camp TA. I would love to talk to you soon!</p>
             <p>Best,</p>
             <p>Elton</p>
             </h4>`)

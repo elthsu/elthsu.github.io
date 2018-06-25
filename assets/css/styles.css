@@ -114,6 +114,7 @@ body {
 }
 
 #selected {
+  position: absolute;
   color: white;
   text-align: center;
   text-shadow: 3px 3px black;
@@ -125,6 +126,19 @@ body {
   box-shadow: 3px 3px 3px black;
   background-color: rgba(0, 0, 0, 0.6);
   visibility: hidden;
+}
+
+.Knight {
+  left: 0;
+}
+
+.IceWizard {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Archer {
+  right: 0;
 }
 
 #disclaimer{
@@ -279,13 +293,21 @@ body {
 
 #endText {
   display: none;
+  text-align: center;
   color: white;
   text-shadow: 3px 3px black;
   position: absolute;
-  left: 50%;
   top: 50%;
   width: 100%;
-  transform: translate(-25%, -50%);
+  transform: translateY(-50%);
+}
+
+#endText a,
+#endText a:link,
+#endText a:visited,
+#endText a:hover,
+#endText a:active {
+  color: white;
 }
 
 .endText{
@@ -294,7 +316,7 @@ body {
 
 @keyframes endGameAnimation {
     from {left: 150%;}
-    to {left: 50%;}
+    to {left: 0%;}
 }
 
 .rundAway{
