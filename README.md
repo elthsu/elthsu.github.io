@@ -3,12 +3,14 @@ I wanted to make something that would stand out in the sea of templates and gene
 I hope you find it unique and fun!
 
 
+
+
 ## Browser Compatibility: ##
 * Chrome: Yes (Recommended)
-* Firefox: Working on it!
+* Firefox: Yes
 * Edge: Yes
 * Safari: Yes
-* IE: Working on it!
+* IE: Working on it! (My portfolio uses template literals so I am in the process of making it compatible with the outdated Internet Explorer.)
 
 
 # Please enjoy.
