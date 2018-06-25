@@ -134,6 +134,12 @@ body {
   }
 }
 
+@-moz-document url-prefix(){
+  #selected {
+    margin-top: 50px;
+  }
+}
+
 .Knight {
   left: 0;
 }
