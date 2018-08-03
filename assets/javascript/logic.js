@@ -335,6 +335,15 @@ $(document).on("click keydown", function(e){
           <h5>Coding Boot Camp Instructional Staff</h5>
           <h6>October 2017 – Present</h6>
           <hr />
+
+          <h4>Popits	USA	|	Irvine,	CA</h4>
+          <h5>Full	Stack	Web	Developer</h5>
+          <h6>September	2017 – Present</h6>
+          <h6><ul>
+            <li>Tasked	to	rebuilt	entire	FE,	BE and	dB	from	scratch	using	MERN	stack.	(Not	currently	launched)</li>
+          </ul></h6>
+
+          <hr />
           <h4>Bazic Products, | El Monte, CA</h4>
           <h5>Customer Service Manager/Project Manager</h5>
           <h6>April 2016 – May 2017</h6>
