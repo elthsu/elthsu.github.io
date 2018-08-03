@@ -11,6 +11,9 @@ I hope you find it unique and fun!
 * Edge: Yes
 * Safari: Yes
 * IE: Working on it! (My portfolio uses template literals so I am in the process of making it compatible with the outdated Internet Explorer.)
+* Mobile Responsiveness: In Progress
+
+
 
 
 # Please enjoy.
